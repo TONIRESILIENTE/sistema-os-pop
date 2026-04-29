@@ -1,0 +1,50 @@
+# ╔══════════════════════════════════════════════════════╗
+# ║   .gitignore — PRISMA Platform                       ║
+# ║   Arquivos que NUNCA vão para o GitHub               ║
+# ╚══════════════════════════════════════════════════════╝
+
+# ── Configurações sensíveis / Sensitive config ────────
+.env
+.env.local
+.env.production
+*.env
+
+# ── Python ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.pyc
+
+# ── Ambientes virtuais / Virtual environments ─────────
+venv/
+env/
+ENV/
+.venv/
+
+# ── Banco de dados local / Local database ─────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Logs ──────────────────────────────────────────────
+*.log
+logs/
+
+# ── Sistema operacional / OS files ────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── VS Code ───────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ── Dependências / Dependencies ───────────────────────
+node_modules/
+
+# ── Build / Distribuição ──────────────────────────────
+dist/
+build/
+*.egg-info/

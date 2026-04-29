@@ -1,0 +1,9 @@
+fastapi>=0.111.0,<0.112.0
+uvicorn>=0.30.1,<0.31.0
+python-dotenv>=1.0.1
+requests>=2.32.3
+
+# ── Segurança / Security ──────────────────────
+python-jose[cryptography]>=3.3.0   # JWT tokens
+passlib[bcrypt]>=1.7.4              # Password hashing
+python-multipart>=0.0.9             # Form data (login form)
