@@ -32,15 +32,16 @@ Cada decisão — da escolha do framework à modelagem das rotas — foi pensada
 
 
 
-
+```
 [ Navegador (desktop / mobile) ]
-│
-▼
+         │
+         ▼
 [ FastAPI (backend Python) ]
-│
-├── Rotas protegidas por JWT
-├── Templates HTML (Jinja2)
-└── Banco de dados (a definir)
+         │
+         ├── Rotas protegidas por JWT
+         ├── Templates HTML (Jinja2)
+         └── Banco de dados (a definir)
+```
 
 
 
@@ -68,20 +69,19 @@ Cada decisão — da escolha do framework à modelagem das rotas — foi pensada
 ---
 
 ## 📁 Estrutura do projeto
+```
 sistema-os-pop/
-├── main.py # Aplicação FastAPI
-├── config.py # Configurações (JWT, etc.)
-├── requirements.txt # Dependências
-├── .env.example # Exemplo de variáveis de ambiente
-│
-├── rotas/ # Endpoints da API
-├── dados/ # Simulação de banco (JSON/CSV)
-├── seguranca/ # Lógica de autenticação/autorização
-│
-├── dashboard-de-os.html # Interface desktop
-├── mobile-de-os-pop.html # Interface mobile
-│
+├── main.py
+├── config.py
+├── requirements.txt
+├── .env.example
+├── rotas/
+├── dados/
+├── seguranca/
+├── dashboard-de-os.html
+├── mobile-de-os-pop.html
 └── README.md
+```
 
 
 
