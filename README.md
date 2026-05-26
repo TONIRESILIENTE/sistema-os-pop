@@ -29,6 +29,10 @@ Cada decisão — da escolha do framework à modelagem das rotas — foi pensada
 ---
 
 ## 🏗️ Arquitetura do sistema
+
+
+
+
 [ Navegador (desktop / mobile) ]
 │
 ▼
@@ -38,7 +42,7 @@ Cada decisão — da escolha do framework à modelagem das rotas — foi pensada
 ├── Templates HTML (Jinja2)
 └── Banco de dados (a definir)
 
-text
+
 
 ### Principais módulos
 
@@ -79,35 +83,35 @@ sistema-os-pop/
 │
 └── README.md
 
-text
+
 
 ---
 
 ## ⚙️ Como executar localmente
 
 ### 1. Clone o repositório
-```bash
+
 git clone https://github.com/TONIRESILIENTE/sistema-os-pop.git
 cd sistema-os-pop
 2. Crie e ative o ambiente virtual
-bash
+
 python -m venv venv
 # Windows:
 venv\Scripts\activate
 # Linux/Mac:
 source venv/bin/activate
 3. Instale as dependências
-bash
+
 pip install -r requirements.txt
 4. Configure as variáveis de ambiente
-bash
+
 copy .env.example .env
 Abra o arquivo .env e defina uma chave secreta forte para o JWT:
 
-text
+
 SECRET_KEY=sua-chave-super-secreta-aqui
 5. Execute o servidor
-bash
+
 uvicorn main:app --reload
 Acesse no navegador:
 
